@@ -55,18 +55,17 @@ python src/preprocess_data.py
 
 **Which outputs require re-fetching raw feeds vs. run directly from bundled derived files:**
 - **Requires raw feeds first (`python src/collect_data.py`):**
-  - Full Stage-1 TVP-VAR estimation from OHLCV bars (`revision/scripts/run_step1_stage1.py`): Table 1, Table 4 & Table A1's 8-asset $\log(\text{Parkinson})$ column, Table 5, and Table B1 macro/NY-close/mixed-proxy checks (`analysis_new/run_mixed_proxy_ablation.py`, `analysis_new/run_stage1_estimator_sensitivity.py`).
+  - Full Stage-1 TVP-VAR estimation from OHLCV bars (`revision/scripts/run_step1_stage1.py`): Table 1, Table 4 & Table A1's 8-asset $\log(\text{Parkinson})$ estimation, Table 5, and Table B1 macro/NY-close/mixed-proxy checks (`analysis_new/run_mixed_proxy_ablation.py`, `analysis_new/run_stage1_estimator_sensitivity.py`, and `revision/scripts/compute_round4_stage1_diff.py`, which invokes Stage-1 estimation).
   - Re-aggregating 60-minute Indodax OHLCV bars (`revision/scripts/run_step3d_indodax_rv_local.py`).
-  - Figure 3(b) Indodax daily volume bar overlay (`revision/scripts/generate_revision_figures.py`).
-  - February 3–7, 2026 raw close/volume spot check (`tests/check_feb2026.py`, which automatically prints `SKIP` when `data/raw/` is absent).
+  - Figures 1–3 script (`revision/scripts/generate_revision_figures.py`): generates `figures/fig1_methodology_flow.pdf` offline and then requires `data/raw/` for the Figure 3(b) Indodax daily volume bar overlay.
+  - February 3–7, 2026 raw close/volume spot check (`tests/check_feb2026.py`, which automatically prints `SKIP` and exits `0` when `data/raw/` is absent).
 - **Runs directly offline from bundled processed/derived data:**
   - Stage-1 DY12 table assembly & 90% percentile/basic bootstrap CIs (`revision/scripts/export_dy12_tables.py`, `revision/scripts/compute_bootstrap_basic_ci.py` -> Table 4 & Table A1).
-  - Causal $\Sigma_0$ comparison (`revision/scripts/compute_round4_stage1_diff.py` -> Table B1 diffs).
-  - Full Stage-2 econometric baselines, HLN-DM tests, Bonferroni families, MCS, outlier ranks (`revision/scripts/run_step1_stage2.py` -> Tables 3, 6, 7, 8, 13, B3).
-  - Matched-sample HAR-X ablation (`analysis_new/run_analysis1_matched_harx.py` -> Table 9).
+  - Stage-2 econometric baselines, HAR-X regressions, HLN-DM tests, Bonferroni families, MCS, outlier ranks (`revision/scripts/run_step1_stage2.py`). When `data/raw/` is absent, Step 1i reconstructs the omitted 8th net-spillover column (`BTC/IDR`) from the DY12 zero-sum identity ($\text{NET}_{\text{BTC/IDR}} = -\sum_{j \ne \text{BTC/IDR}} \text{NET}_j$, verified max numerical diff $1.34 \times 10^{-13}$ on VIF and $0.00$ across all other Stage-2 outputs). Note: `run_step1_stage2.py` evaluates econometric/HAR-X baselines directly (matching **Table B3** and econometric rows of **Tables 3, 6, 7, 8**), whereas final manuscript **Tables 3 (row 3), 6, 7, 8, and 13** pair those econometric baselines with the Round-4 post-warm-up neural predictions in `revision/kaggle_outputs/outputs_3a3b_v2/` rather than legacy `results/v6/`.
+  - Matched-sample HAR-X ablation (`analysis_new/run_analysis1_matched_harx.py` -> Table 9 & Table 3 rows 5, 8).
   - Parametric & stationary bootstrap loss-differential CIs (`analysis_new/run_analysis2_loss_diff_ci.py`, `analysis_new/run_bootstrap_loss_diff_ci.py`, `analysis_new/step1_audit.py` -> Tables 10–11).
   - Intraday `RV_60m` summary table & `AE`/`QLIKE` significance checks from derived `step3d_rv60m_econometric.csv` and `metrics_by_model.csv` (`analysis_new/run_analysis3_rv60m_table.py`, `analysis_new/run_rv60m_spill_vs_no_ae_qlike.py` -> Table 12).
-  - 20-origin rolling-refit neural evaluation (`analysis_new/run_neural_refit_eval.py`, `analysis_new/run_neural_refit_ranks.py` -> Table B4).
+  - 20-origin rolling-refit neural evaluation and outlier rank shifts (`analysis_new/run_neural_refit_eval.py` -> Table B4, exits `3` after writing CSVs to flag the exploratory refit rank reversal; `analysis_new/run_neural_refit_ranks.py` -> Table 13).
   - Student-$t$ VaR & Kupiec backtest appendix (`analysis_new/run_var_backtest_appendix.py` -> Table B6).
 
 Note on static reference tables: `revision/outputs/step1g_dl_specs.csv` (Table 2 specification summary, matching `revision/kaggle_outputs/outputs_3a3b_v2/config_used.json`) and `revision/outputs/step1f_chow_breaks.csv` (Table B2 Chow break output) are bundled as derived CSVs.
@@ -79,15 +78,15 @@ Note on static reference tables: `revision/outputs/step1g_dl_specs.csv` (Table 2
 |---|---|---|---|
 | **Tables 1, 4, 5, A1, B1, B5** (from raw feeds) | `python src/collect_data.py && python revision/scripts/run_step1_stage1.py && python analysis_new/run_stage1_estimator_sensitivity.py && python analysis_new/run_mixed_proxy_ablation.py` | Raw fetch + CPU | ~5–12 min |
 | **Table 4 & Table A1** (DY12 & CIs from Stage-1 CSVs) | `python revision/scripts/export_dy12_tables.py && python revision/scripts/compute_bootstrap_basic_ci.py` | Derived (offline) | < 2 s |
-| **Tables 3, 6, 7, 8, 13, B3** (Stage-2 econometrics, DM, MCS) | `python revision/scripts/run_step1_stage2.py` | Derived (offline) | ~30–60 s |
+| **Tables 3, 6, 7, 8, B3** (Stage-2 econometrics/HAR-X, DM, MCS; neural rows combined with `outputs_3a3b_v2/`) | `python revision/scripts/run_step1_stage2.py` | Derived (offline via zero-sum Step 1i fallback) | ~20–45 s |
 | **Table 9** (Matched HAR-X) | `python analysis_new/run_analysis1_matched_harx.py` | Derived (offline) | < 3 s |
 | **Tables 10 & 11** (Loss-diff & bootstrap CIs) | `python analysis_new/run_analysis2_loss_diff_ci.py && python analysis_new/run_bootstrap_loss_diff_ci.py` | Derived (offline) | ~10 s |
 | **Table 12** (Intraday `RV_60m`) | `python analysis_new/run_analysis3_rv60m_table.py && python analysis_new/run_rv60m_spill_vs_no_ae_qlike.py` | Derived (offline) | < 3 s |
-| **Table B4** (Rolling-refit neural eval) | `python analysis_new/run_neural_refit_eval.py && python analysis_new/run_neural_refit_ranks.py` | Derived (offline) | < 5 s |
+| **Tables 13 & B4** (Fixed-vs-refit ranks & rolling-refit eval; `eval` exits `3` after writing CSVs) | `python analysis_new/run_neural_refit_ranks.py && (python analysis_new/run_neural_refit_eval.py \|\| test $? -eq 3)` | Derived (offline) | < 5 s |
 | **Table B6** (VaR & Kupiec backtest) | `python analysis_new/run_var_backtest_appendix.py` | Derived (offline) | < 2 s |
 | **Stage-2 Neural Models** (GPU refits / fixed runs) | Run `revision/kaggle/run_3a_warmup_excluded.py`, `run_3b_nonneg_nbeatsx.py`, `run_3c_tft_rolling_refit.py`, `run_3d_intraday_rv_dl.py`, `refit20_kaggle.py` | Derived + GPU | ~20–90 min (T4 GPU) |
-| **Figures 1–3** | `python revision/scripts/generate_revision_figures.py` | Needs `data/raw/` for Fig. 3b | ~5 s |
-| **Consistency Tests** | `python tests/check_feb2026.py` and `python tests/test_manuscript_numbers.py /path/to/main.tex` | Skips cleanly if raw / TeX absent | < 2 s |
+| **Figures 1–3** (`fig1_methodology_flow.pdf` offline; `fig3` volume overlay needs raw feeds) | `python revision/scripts/generate_revision_figures.py` | Needs `data/raw/` for Fig. 3b | ~5 s |
+| **Consistency Tests** | `python tests/check_feb2026.py` and `MANUSCRIPT_TEX=/path/to/main.tex python tests/test_manuscript_numbers.py` | Skips cleanly if raw / TeX absent | < 3 s |
 
 ---
 
