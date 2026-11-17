@@ -1,0 +1,15 @@
+# Pinned Python dependencies matching local verification environment (Python 3.13)
+# Note: GPU deep learning experiments reported in the manuscript used PyTorch 2.11.0+cu130 on Kaggle Tesla T4 GPUs.
+arch==8.0.0
+matplotlib==3.10.8
+nbformat==5.10.4
+neuralforecast==3.3.0
+numpy==2.4.4
+pandas==3.0.2
+pytorch_lightning==2.6.6
+requests==2.32.5
+scipy==1.17.1
+scikit-learn==1.8.0
+statsmodels==0.14.6
+torch==2.13.0
+yfinance==1.7.0

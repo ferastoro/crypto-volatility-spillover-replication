@@ -1,0 +1,17 @@
+Event,Date,TSI_log_r2_pct,Note
+Full_series_max_in_warmup,2020-01-16,89.86086506508151,Global max inside first-250 warmup window
+Warmup_first250_mean,2020-01-06..2020-12-30,51.071909583755556,Mean TSI over first 250 VAR steps
+Post_warmup_mean,2020-12-31..2026-09-04,35.12754662649609,Main post-warmup mean (N=1426)
+Terra_Luna_window_max,2022-05-09,57.19177787060501,Terra-Luna collapse window peak
+FTX_window_max,2022-11-10,60.274590422240095,FTX collapse post-warmup global peak
+ChatGPT_window_max,2022-11-30,53.59266596834852,ChatGPT release window peak
+Spring2025_min,2025-03-07,18.563734575264277,Post-warmup minimum
+April2025_tariff_peak,2025-04-10,48.93585074737079,April 2025 tariff turmoil peak
+Feb2026_dislocation_max,2026-02-06,36.096851850109026,Feb 5-6 2026 dislocation window peak
+Exact_2022-05-11,2022-05-11,57.14254428095411,"abs_r=67.69%, r2=60.73%, park=68.92%"
+Exact_2022-11-10,2022-11-10,60.274590422240095,"abs_r=65.39%, r2=58.35%, park=59.14%"
+Exact_2022-12-02,2022-12-02,53.45154253460844,"abs_r=65.70%, r2=58.19%, park=65.48%"
+Exact_2025-03-07,2025-03-07,18.563734575264277,"abs_r=29.39%, r2=22.09%, park=63.12%"
+Exact_2025-04-10,2025-04-10,48.93585074737079,"abs_r=72.43%, r2=76.13%, park=71.71%"
+Exact_2026-02-05,2026-02-05,32.463237708279756,"abs_r=46.15%, r2=48.70%, park=62.02%"
+Exact_2026-02-06,2026-02-06,36.096851850109026,"abs_r=51.74%, r2=52.44%, park=62.18%"

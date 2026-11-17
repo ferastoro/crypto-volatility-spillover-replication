@@ -1,0 +1,7 @@
+Proxy_Spec,Proxy_Key,BurnIn_Treatment,N_steps,BTC_IDR_NET,BTC_USD_NET,TSI,BTC_IDR_NET_exact,BTC_USD_NET_exact,TSI_exact
+"Mixed legacy (BTC/IDR log Park., peers log r2)",log_Parkinson_mixed_legacy,"Un-trimmed (all 1,676 steps)",1676,5.2134,1.4462,35.7982,5.213414523884836,1.4462368219934518,35.79818785080188
+"Mixed legacy (BTC/IDR log Park., peers log r2)",log_Parkinson_mixed_legacy,"Post-warm-up (N_eff=1,426)",1426,3.3435,3.9439,33.2181,3.343486860341571,3.943873153995,33.218110490915606
+Symmetric log Parkinson (all 8 assets),log_Parkinson_8asset_interval,"Un-trimmed (all 1,676 steps)",1676,1.4502,5.3338,54.7791,1.4502334284511065,5.333821615858824,54.77910933799182
+Symmetric log Parkinson (all 8 assets),log_Parkinson_8asset_interval,"Post-warm-up (N_eff=1,426)",1426,1.2316,6.2705,52.5764,1.231617248552709,6.270546356515908,52.57641431742013
+Symmetric log(r^2) (all 8 assets),log_r2,"Un-trimmed (all 1,676 steps)",1676,2.5798,5.1642,37.5059,2.579801982212743,5.1641761028506465,37.50588238981044
+Symmetric log(r^2) (all 8 assets),log_r2,"Post-warm-up (N_eff=1,426)",1426,4.4205,8.1663,35.1275,4.420494425972336,8.166267035714924,35.12754662649607

@@ -1,0 +1,5 @@
+model,feature_set,n_seeds,fit_mean,fit_min,fit_max,best_step_min,best_step_max,actual_step_min,actual_step_max
+NBEATSx,NOSPILL,5,1.846,1.81,1.86,50,50,175,175
+NBEATSx,SPILL,5,1.826,1.81,1.84,50,50,175,175
+TFT,NOSPILL,5,40.068,32.51,48.7,25,100,150,225
+TFT,SPILL,5,64.15,60.12,70.19,25,50,150,175

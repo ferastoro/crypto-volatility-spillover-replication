@@ -1,0 +1,174 @@
+item,old_raw,new_raw,old_formatted,new_formatted,sign_or_flag_changed,location_in_main_tex,source_csv
+Main_US_1677.log_r2.TSI_warmup_first250_mean,51.10257786478677,51.07190958375555,51.10,51.07,False,Results RQ1 / Fig 2 legend,step1a_stage1_summary.csv
+Main_US_1677.log_r2.TSI_post_max,60.27524360450021,60.274590422240095,60.28,60.27,False,Results RQ1,step1a_stage1_summary.csv
+Main_US_1677.abs_r.TSI_full_mean,47.19412460793721,47.28157151204319,47.19,47.28,False,Results RQ1 (Sec 4.1),step1a_stage1_summary.csv
+Main_US_1677.abs_r.TSI_warmup_first250_mean,60.09192316373869,60.62380051809325,60.09,60.62,False,Results RQ1 / Fig 2 legend,step1a_stage1_summary.csv
+Main_US_1677.abs_r.TSI_post_mean,44.93293972788788,44.94247105516206,44.93,44.94,False,"Abstract, Table 4, Table 5, Results RQ1, Conclusion",step1a_stage1_summary.csv
+Main_US_1677.abs_r.TSI_p0_post_mean,44.18786700928819,44.199780580226594,44.19,44.20,False,Results RQ1,step1a_stage1_summary.csv
+Main_US_1677.abs_r.TSI_p0_ratio_pct,98.3418117685782,98.34746408575556,98.34,98.35,False,"Abstract, Results RQ1, Lit Comparison, Conclusion",step1a_stage1_summary.csv
+Main_US_1677.r2.TSI_full_mean,44.901339740008,45.1224413100316,44.90,45.12,False,Results RQ1 (Sec 4.1),step1a_stage1_summary.csv
+Main_US_1677.r2.TSI_warmup_first250_mean,60.40438797824297,62.1419922139445,60.40,62.14,False,Results RQ1 / Fig 2 legend,step1a_stage1_summary.csv
+Main_US_1677.r2.TSI_post_mean,42.183414032042535,42.13864907582527,42.18,42.14,False,"Abstract, Table 4, Table 5, Results RQ1, Conclusion",step1a_stage1_summary.csv
+Main_US_1677.r2.TSI_post_sd,10.99023457359129,10.999721362632362,10.99,11.00,False,Results RQ1,step1a_stage1_summary.csv
+Main_US_1677.r2.TSI_p0_ratio_pct,98.57899267675968,98.6769466835148,98.58,98.68,False,"Abstract, Results RQ1, Lit Comparison, Conclusion",step1a_stage1_summary.csv
+Main_US_1677.log_Parkinson_8asset_interval.TSI_full_mean,54.76586182109633,54.77910933799183,54.77,54.78,False,Results RQ1 (Sec 4.1),step1a_stage1_summary.csv
+Main_US_1677.log_Parkinson_8asset_interval.TSI_warmup_first250_mean,67.22934603471244,67.3432817353327,67.23,67.34,False,Results RQ1 / Fig 2 legend,step1a_stage1_summary.csv
+Main_US_1677.log_Parkinson_8asset_interval.TSI_post_max,72.53504054874492,72.5349985621354,72.54,72.53,False,Results RQ1,step1a_stage1_summary.csv
+TSI_event.Full_series_max_in_warmup,87.12482445195873,89.86086506508151,87.12,89.86,False,Results RQ1 (Sec 4.1),step1a_tsi_events.csv
+TSI_event.FTX_window_max,60.27524360450021,60.274590422240095,60.28,60.27,False,Results RQ1 (Sec 4.1),step1a_tsi_events.csv
+Perm.abs_r.Null_p05,12.77586596054708,12.774083636232485,12.78,12.77,False,"Abstract, Table 4, Results RQ1, Conclusion",step1a_permutation_test.csv
+Perm.abs_r.Excess_TSI,31.51260558949531,31.52279813795754,31.51,31.52,False,"Abstract, Table 4, Results RQ1, Conclusion",step1a_permutation_test.csv
+Perm.r2.Null_mean,10.447082277957051,10.437000324977651,10.45,10.44,False,"Abstract, Table 4, Results RQ1, Conclusion",step1a_permutation_test.csv
+Perm.r2.Null_p05,9.241703136614234,9.223971716803328,9.24,9.22,False,"Abstract, Table 4, Results RQ1, Conclusion",step1a_permutation_test.csv
+Perm.r2.Null_p95,11.686532631002915,11.682481687666009,11.69,11.68,False,"Abstract, Table 4, Results RQ1, Conclusion",step1a_permutation_test.csv
+Perm.r2.Excess_TSI,31.736331754085484,31.701648750847617,31.74,31.70,False,"Abstract, Table 4, Results RQ1, Conclusion",step1a_permutation_test.csv
+Table4.log_r2.NVDA.Point,-2.6080685331138582,-2.603843286189544,-2.61,-2.60,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.NVDA.Basic_hi,-0.9164943586849308,-0.9076199752257494,-0.92,-0.91,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.MSFT.Basic_lo,-3.1514181772547483,-3.163354614979388,-3.15,-3.16,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.MSFT.Basic_hi,0.1294057175931176,0.1170426996578928,+0.13,+0.12,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.log_r2.MSFT.Bias_DY12_BootMinusPoint,1.042551448967611,1.0485358234808393,+1.04,+1.05,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.log_r2.TSLA.Pct_lo,-5.709153634816512,-5.7040117863636155,-5.71,-5.70,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.GOOGL.Pct_hi,0.6424428886185072,0.6463969450132608,+0.64,+0.65,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.META.Point,-0.8459707940365848,-0.8431064130477424,-0.85,-0.84,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.META.Pct_hi,0.6446668958472936,0.6471071174026136,+0.64,+0.65,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.META.Basic_lo,-2.3366084839204633,-2.3333199434980982,-2.34,-2.33,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_r2.META.Basic_hi,0.4212959575744519,0.4270917892288528,+0.42,+0.43,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.log_r2.META.Share_Pos_pct,15.666666666666668,15.333333333333332,15.7,15.3,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.log_r2.ETH-USD.Basic_lo,-4.951114111829392,-4.9553061436648855,-4.95,-4.96,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.NVDA.Point,-3.127124912972547,-3.1180861988208193,-3.13,-3.12,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.NVDA.Pct_lo,-4.574671658585282,-4.576433288117134,-4.57,-4.58,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.NVDA.Basic_lo,-4.823064093099206,-4.808053725395007,-4.82,-4.81,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.NVDA.Basic_hi,-1.6795781673598125,-1.6597391095245042,-1.68,-1.66,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.abs_r.NVDA.Bias_DY12_BootMinusPoint,0.1615222977097903,0.1530118017054667,+0.16,+0.15,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.abs_r.MSFT.Point,2.436423161254076,2.4566773445832126,+2.44,+2.46,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.MSFT.Pct_hi,5.256844559628441,5.269392371177579,+5.26,+5.27,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.MSFT.Basic_lo,-0.3839982371202897,-0.3560376820111539,-0.38,-0.36,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.MSFT.Basic_hi,3.803018637743493,3.847770716338598,+3.80,+3.85,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.abs_r.MSFT.Bias_DY12_BootMinusPoint,0.5109967436168703,0.4905760650773287,+0.51,+0.49,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.abs_r.TSLA.Point,-6.026398699303638,-6.021238437974841,-6.03,-6.02,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.TSLA.Pct_hi,-5.536645827626629,-5.523554492569798,-5.54,-5.52,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.TSLA.Basic_hi,-3.01653522688982,-2.998502523923662,-3.02,-3.00,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.GOOGL.Pct_hi,1.70621616184214,1.7047409789681087,+1.71,+1.70,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.GOOGL.Basic_lo,-1.921395550426273,-1.9250843510259343,-1.92,-1.93,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.abs_r.GOOGL.Bias_DY12_BootMinusPoint,-0.0360577023244784,-0.0333562665635808,-0.04,-0.03,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+BootBias.abs_r.GOOGL.Share_Pos_pct,47.0,47.333333333333336,47.0,47.3,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.abs_r.META.Point,-2.0530431250160888,-2.028875473985984,-2.05,-2.03,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.META.Pct_lo,-4.1345627979471615,-4.135818256423642,-4.13,-4.14,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.META.Basic_lo,-3.8450261332049127,-3.8003504038652394,-3.85,-3.80,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.META.Basic_hi,0.0284765479149839,0.0780673084516738,+0.03,+0.08,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.abs_r.META.Bias_DY12_BootMinusPoint,-0.0474311171025112,-0.0711831101117632,-0.05,-0.07,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.abs_r.BTC-USD.Point,7.998864802119379,7.979206753839875,+8.00,+7.98,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC-USD.Pct_lo,6.948411362901843,6.940758220027381,+6.95,+6.94,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC-USD.Pct_hi,9.236989261180645,9.232702142201394,+9.24,+9.23,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC-USD.Basic_lo,6.760740343058114,6.725711365478357,+6.76,+6.73,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC-USD.Basic_hi,9.049318241336916,9.01765528765237,+9.05,+9.02,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.abs_r.BTC-USD.Bias_DY12_BootMinusPoint,0.0550593351329906,0.0744204139446331,+0.06,+0.07,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.abs_r.ETH-USD.Point,-3.355188311195007,-3.3661554381483185,-3.36,-3.37,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.ETH-USD.Pct_hi,-1.1991357706157728,-1.1930208311095192,-1.20,-1.19,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.ETH-USD.Basic_lo,-5.511240851774241,-5.539290045187117,-5.51,-5.54,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.ETH-USD.Basic_hi,-1.6902620954682552,-1.7077890124605697,-1.69,-1.71,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.abs_r.ETH-USD.Bias_DY12_BootMinusPoint,0.1409929564558001,0.1515931126680594,+0.14,+0.15,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.abs_r.BTC/IDR.Point,4.2340567794058686,4.20864313653577,+4.23,+4.21,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC/IDR.Pct_lo,3.465580165243475,3.4645413379777183,+3.47,+3.46,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC/IDR.Pct_hi,6.100123596649055,6.111353532717129,+6.10,+6.11,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC/IDR.Basic_lo,2.3679899621626825,2.30593274035441,+2.37,+2.31,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.abs_r.BTC/IDR.Basic_hi,5.002533393568262,4.952744935093821,+5.00,+4.95,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.abs_r.BTC/IDR.Bias_DY12_BootMinusPoint,0.4632961526346726,0.4882387513944435,+0.46,+0.49,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.r2.NVDA.Pct_lo,-4.74114892083308,-4.754892089567175,-4.74,-4.75,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.NVDA.Pct_hi,-0.1937640494652032,-0.2113092688734368,-0.19,-0.21,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.NVDA.Basic_lo,-4.873715129461088,-4.853715452782813,-4.87,-4.85,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.NVDA.Basic_hi,-0.3263302580932112,-0.3101326320890747,-0.33,-0.31,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.MSFT.Point,2.2884555569318294,2.1580567355889784,+2.29,+2.16,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.MSFT.Pct_hi,5.069171672947315,5.129442079283637,+5.07,+5.13,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.MSFT.Basic_lo,-0.4922605590836557,-0.8133286081056799,-0.49,-0.81,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.MSFT.Basic_hi,4.919820536991005,4.658071674980418,+4.92,+4.66,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.r2.MSFT.Boot_mean_DY12,2.3932451023995793,2.396060589997796,+2.39,+2.40,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+BootBias.r2.MSFT.Bias_DY12_BootMinusPoint,0.1047895454677498,0.2380038544088174,+0.10,+0.24,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.r2.TSLA.Point,-4.600018825171926,-4.542805587517297,-4.60,-4.54,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.TSLA.Pct_lo,-8.76811939299693,-8.75431784588409,-8.77,-8.75,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.TSLA.Pct_hi,-4.069015676822272,-4.081850832215578,-4.07,-4.08,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.TSLA.Basic_lo,-5.131021973521579,-5.003760342819015,-5.13,-5.00,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.TSLA.Basic_hi,-0.431918257346922,-0.3312933291505029,-0.43,-0.33,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.r2.TSLA.Bias_DY12_BootMinusPoint,-1.699815455109846,-1.7610126411273883,-1.70,-1.76,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.r2.GOOGL.Point,-0.1246103440239704,-0.0511341580165376,-0.12,-0.05,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.GOOGL.Pct_lo,-2.823283200628538,-2.800708556728883,-2.82,-2.80,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.GOOGL.Basic_lo,-2.6882744917413772,-2.540187988073796,-2.69,-2.54,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.GOOGL.Basic_hi,2.5740625125805976,2.698440240695808,+2.57,+2.70,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.r2.GOOGL.Bias_DY12_BootMinusPoint,0.0131229573505992,-0.0555992835866456,+0.01,-0.06,True,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+BootBias.r2.GOOGL.Share_Pos_pct,47.66666666666667,48.333333333333336,47.7,48.3,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.r2.META.Point,-2.3087266327408105,-2.265429838577148,-2.31,-2.27,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.META.Pct_lo,-5.443191845703856,-5.460783460872703,-5.44,-5.46,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.META.Basic_lo,-4.7658436389835614,-4.678077925264225,-4.77,-4.68,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.META.Basic_hi,0.825738580222235,0.9299237837184072,+0.83,+0.93,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.r2.META.Bias_DY12_BootMinusPoint,-0.1364262684845774,-0.1808485068212331,-0.14,-0.18,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+BootBias.r2.META.Share_Pos_pct,6.666666666666667,7.666666666666666,6.7,7.7,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.r2.BTC-USD.Point,7.6590065751779965,7.628203560330406,+7.66,+7.63,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.BTC-USD.Pct_lo,6.171166729334205,6.194967193945971,+6.17,+6.19,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.BTC-USD.Basic_lo,6.098321527062318,6.038821193054057,+6.10,+6.04,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.BTC-USD.Basic_hi,9.146846421021788,9.06143992671484,+9.15,+9.06,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.r2.BTC-USD.Bias_DY12_BootMinusPoint,-0.0483335789163472,-0.0199205468483949,-0.05,-0.02,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.r2.ETH-USD.Pct_lo,-6.124691862661456,-6.083172154140442,-6.12,-6.08,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.ETH-USD.Pct_hi,0.0297342822116704,-0.0217627179230272,+0.03,-0.02,True,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.ETH-USD.Basic_lo,-7.516972385710453,-7.467445502194846,-7.52,-7.47,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.ETH-USD.Basic_hi,-1.362546240837326,-1.4060360659774318,-1.36,-1.41,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.r2.ETH-USD.Boot_mean_DY12,-3.0365287135154224,-3.033690857311553,-3.04,-3.03,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+BootBias.r2.ETH-USD.Share_Pos_pct,5.333333333333334,5.0,5.3,5.0,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.r2.ETH-USD.Excl0_pct,False,True,False,True,True,"Table 4 bolding, Results RQ1, Conclusion",step1c_bootstrap_basic_ci.csv
+Table4.r2.ETH-USD.Agree,False,True,False,True,True,"Table 4 bolding, Results RQ1, Conclusion",step1c_bootstrap_basic_ci.csv
+Table4.r2.BTC/IDR.Point,3.3632523110394454,3.3502257590786826,+3.36,+3.35,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.BTC/IDR.Basic_lo,0.515278178466926,0.4943389138717506,+0.52,+0.49,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.r2.BTC/IDR.Basic_hi,4.2959268936992645,4.26913136564458,+4.30,+4.27,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.r2.BTC/IDR.Bias_DY12_BootMinusPoint,0.9979768358796705,1.0079061949657424,+1.00,+1.01,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.log_Parkinson_8asset_interval.NVDA.Point,-3.9567315005693047,-3.9474017936092665,-3.96,-3.95,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.NVDA.Pct_lo,-6.094771212657714,-6.105144891600042,-6.09,-6.11,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.NVDA.Basic_lo,-9.15706202368039,-9.13611471870806,-9.16,-9.14,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.NVDA.Basic_hi,-1.818691788480895,-1.789658695618491,-1.82,-1.79,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.log_Parkinson_8asset_interval.NVDA.Bias_DY12_BootMinusPoint,1.7674712073196923,1.7582300402680433,+1.77,+1.76,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.log_Parkinson_8asset_interval.MSFT.Pct_hi,8.966492636959975,8.96240621212899,+8.97,+8.96,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.MSFT.Basic_lo,-0.622253645983184,-0.6313636051533038,-0.62,-0.63,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.MSFT.Basic_hi,7.699133886432367,7.680327176586477,+7.70,+7.68,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.TSLA.Point,-6.904874558630823,-6.905702386203991,-6.90,-6.91,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.TSLA.Pct_lo,-13.589690400831708,-13.567583741937002,-13.59,-13.57,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.TSLA.Pct_hi,-7.1073612673161275,-7.119725096865033,-7.11,-7.12,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.TSLA.Basic_lo,-6.702387849945518,-6.691679675542949,-6.70,-6.69,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.TSLA.Basic_hi,-0.2200587164299374,-0.2438210304709809,-0.22,-0.24,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.GOOGL.Pct_hi,2.141561256838136,2.148369978980351,+2.14,+2.15,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.GOOGL.Basic_hi,7.303671753867302,7.309548587037511,+7.30,+7.31,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.log_Parkinson_8asset_interval.GOOGL.Share_Pos_pct,26.666666666666668,27.0,26.7,27.0,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.log_Parkinson_8asset_interval.META.Point,0.980941589638568,0.9719511080260111,+0.98,+0.97,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.META.Pct_lo,-2.1345377764798994,-2.137261301576892,-2.13,-2.14,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.META.Basic_lo,-3.7673878696372207,-3.784918553097372,-3.77,-3.78,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.META.Basic_hi,4.0964209557570355,4.081163517628914,+4.10,+4.08,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.log_Parkinson_8asset_interval.META.Bias_DY12_BootMinusPoint,0.6131410275048639,0.622629604596236,+0.61,+0.62,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+BootBias.log_Parkinson_8asset_interval.META.Share_Pos_pct,75.66666666666667,75.33333333333333,75.7,75.3,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.log_Parkinson_8asset_interval.ETH-USD.Point,-2.9367172558437744,-2.9255240402815015,-2.94,-2.93,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.ETH-USD.Pct_lo,-4.657750066721408,-4.653296823208868,-4.66,-4.65,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.ETH-USD.Basic_lo,-6.225604773497386,-6.203426354651566,-6.23,-6.20,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.ETH-USD.Basic_hi,-1.2156844449661408,-1.197751257354135,-1.22,-1.20,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.log_Parkinson_8asset_interval.ETH-USD.Bias_DY12_BootMinusPoint,0.6841231060524575,0.6724305725495894,+0.68,+0.67,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4.log_Parkinson_8asset_interval.BTC/IDR.Point,1.2377285104321345,1.231617248552744,+1.24,+1.23,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+Table4.log_Parkinson_8asset_interval.BTC/IDR.Basic_hi,1.7730696957316183,1.762213657031099,+1.77,+1.76,False,"Table 4, Results RQ1, Abstract",step1c_bootstrap_basic_ci.csv
+BootBias.log_Parkinson_8asset_interval.BTC/IDR.Bias_DY12_BootMinusPoint,1.850744647575456,1.8573810060404503,+1.85,+1.86,False,"Methodology, Results RQ1",step1c_bootstrap_bias.csv
+Table4_TSI.log_r2.Basic_hi,36.13720399117118,36.13309197812349,36.14,36.13,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.abs_r.Point,44.93293972788788,44.94247105516206,44.93,44.94,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.abs_r.P95,50.98063762419487,50.99054828400381,50.98,50.99,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.abs_r.Basic_hi,46.046736989677484,46.06460930534384,46.05,46.06,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.r2.Point,42.183414032042535,42.13864907582527,42.18,42.14,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.r2.P05,40.397404885183896,40.41136089480106,40.40,40.41,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.r2.Basic_lo,34.20074100409375,34.10866894216416,34.20,34.11,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.r2.Basic_hi,43.969423178901174,43.865937256849485,43.97,43.87,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.log_Parkinson_8asset_interval.P05,51.75761650783581,51.753194471080654,51.76,51.75,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table4_TSI.log_Parkinson_8asset_interval.Basic_lo,48.10130544108003,48.089106539877044,48.10,48.09,False,Table 4,step1c_bootstrap_tsi_ci.csv
+Table5.abs_r.TSI_post_mean,44.93293972788789,44.94247105516205,44.93,44.94,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.abs_r.Within_AI_pts,18.963731088111064,18.976453132257028,18.96,18.98,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.abs_r.AI_to_Crypto_pts,2.863308195174218,2.865471105216332,2.86,2.87,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.r2.TSI_post_mean,42.18341403204252,42.13864907582526,42.18,42.14,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.r2.Within_AI_pts,16.99241263424162,16.93080915690897,16.99,16.93,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.r2.Within_AI_share_of_TSI_pct,40.28221286530812,40.17881334174544,40.3,40.2,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.r2.Within_Crypto_share_of_TSI_pct,45.74955294129619,45.79826808271449,45.7,45.8,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.r2.AI_to_Crypto_pts,2.491224041728471,2.5024201487833895,2.49,2.50,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Table5.r2.Crypto_to_AI_pts,3.4010540210369764,3.406648299952158,3.40,3.41,False,"Table 5, Results RQ1",step1d_block_decomposition.csv
+Pairwise.log_r2.BTCUSD_to_BTCIDR_pct,32.145400306474784,32.144199332628865,32.15,32.14,False,Results RQ1 (Sec 4.1),step1a_pairwise_fev.csv
+Pairwise.log_r2.AI_sum_to_BTCUSD_pct,7.495137435651916,7.493562918734561,7.50,7.49,False,Results RQ1 (Sec 4.1),step1a_pairwise_fev.csv
+Sens.Plus_VIX_IXIC_10asset.log_r2.VIX_to_BTCIDR_pct,1.375240864222831,1.3710158961551402,1.38,1.37,False,Robustness Check (Sec 4.4),step1e_sensitivity_summary_dy12.csv
+Sens.Plus_VIX_GSPC_10asset.log_r2.BTCIDR_NET_DY12_pct,4.046816355101974,4.043426649885049,4.05,4.04,False,Robustness Check (Sec 4.4),step1e_sensitivity_summary_dy12.csv

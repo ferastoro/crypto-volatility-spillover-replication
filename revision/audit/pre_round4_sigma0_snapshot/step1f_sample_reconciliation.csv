@@ -1,0 +1,11 @@
+Metric,Start,End,Count,Notes
+Raw Indodax/BTC-USD/ETH-USD 24/7 price rows,2020-01-01,2026-09-05,2440,2440 daily UTC bars -> 2439 24h returns
+US equity price dates (all 5 AI equities),2020-01-02,2026-09-04,1678,1678 US trading dates
+Raw non-US-trading calendar days in full raw span,2020-01-01,2026-09-05,762,2440 - 1678 = 762 (31.23%)
+Return-aligned US equity trading dates (Stage 1 main),2020-01-03,2026-09-04,1677,1677 close-to-close return dates (Stage 1 main & Stage 2 full)
+Calendar days in return span 2020-01-03..2026-09-04,2020-01-03,2026-09-04,2437,1677 US trading + 760 weekends/US holidays (31.19%)
+Calendar days in US price span 2020-01-02..2026-09-04,2020-01-02,2026-09-04,2438,2438 calendar days; 2440 raw includes 2020-01-01 and 2026-09-05
+JKSE-intersected Stage-1 robustness return dates,2020-01-03,2026-09-04,1556,Drops 121 US-open/JKSE-holiday days
+Post-warmup Stage-1 main return dates (discard 250),2020-12-31,2026-09-04,1426,p=1 VAR has 1676 steps; discarding first 250 leaves 1426 effective dates
+Stage-2 causal SPILL feature dates (raw un-ffilled),2020-01-06,2026-09-04,1555,JKSE-joined p=1 output forward-filled across 121 JKSE holidays onto Stage-2 US calendar
+Stage-2 OOS unique cutoffs / h=1 evaluation dates,2025-04-24,2026-08-21,335,335 rolling origins; 344 unique target dates; 3350 origin-horizon pairs

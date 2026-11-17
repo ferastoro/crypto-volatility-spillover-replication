@@ -1,0 +1,12 @@
+# Python & environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.DS_Store
+*.log
+
+# Raw vendor downloads (re-fetched via src/collect_data.py)
+data/raw/*.csv
+revision/data_ext/*.csv

@@ -1,0 +1,7 @@
+Step_Label,sw1_discard_250,sw2_sample_1677,sw3_no_zscore,sw4_causal_joseph,sw5_interval_park,N_steps,BTC_IDR_NET,BTC_USD_NET,TSI,BTC_IDR_NET_exact
+0. Legacy baseline (a),False,False,False,False,False,1555,-4.0968,4.6005,37.5433,-4.096774508914564
+1. + (4) Causal Sigma_0 & Joseph/solve,False,False,False,True,False,1555,3.0828,3.4031,35.5819,3.0827671575885773
+2. + (3) Remove z-scoring,False,False,True,True,False,1555,4.4121,1.3451,36.9014,4.412083918157421
+3. + (5) Interval Parkinson,False,False,True,True,True,1555,5.5617,0.9569,37.2158,5.561667678038205
+"4. + (2) Sample = 1,677 US calendar",False,True,True,True,True,1676,5.2134,1.4462,35.7982,5.21341452388549
+5. + (1) Discard first 250 steps [== Abl. A (i)-(b)],True,True,True,True,True,1426,3.3435,3.9439,33.2181,3.343486860341386

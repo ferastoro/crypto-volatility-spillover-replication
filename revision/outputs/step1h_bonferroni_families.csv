@@ -1,0 +1,8 @@
+Family_ID,Loss,m,Description
+F1_Main13_vs_HAR_MSE,SE,26,13 non-HAR main models vs HAR benchmark across h=1 and h=10 (13 x 2 = 26 tests)
+F2_Table3_8_vs_HAR_MSE,SE,16,Original 8 non-HAR models in Table 3 vs HAR benchmark across h=1 and h=10 (8 x 2 = 16 tests)
+F3_DL4_vs_Bench3_MSE,SE,24,"4 DL configs vs 3 primary Table-3 benchmarks (Hist-Exp, GARCH(1,1)-N, HAR) across h=1,10 (4 x 3 x 2 = 24 tests; legacy v6 used m=12 per horizon/family)"
+F4_RQ3_SPILL_vs_NOSPILL_MSE,SE,6,"Direct SPILL vs NOSPILL ablation for TFT, N-BEATSx, HAR-X across h=1 and h=10 (3 x 2 = 6 tests; DL-only = 4 tests)"
+F5_RQ3_HARX_FairTest_MSE,SE,6,"Parsimonious HAR-X tests: HAR-X-SPILL vs HAR, HAR-X-SPILL vs HAR-X-NOSPILL, HAR-X-FULL vs HAR-X-NOSPILL across h=1,10 (3 x 2 = 6 tests)"
+F6_FullPos9_vs_HAR_QLIKE,QLIKE,16,"Strictly positive econometric/TFT models (8 non-HAR models) vs HAR under QLIKE across h=1,10 (8 x 2 = 16 tests)"
+F7_RQ3_SPILL_vs_NOSPILL_MAE,AE,6,"Direct SPILL vs NOSPILL ablation under AE loss for TFT, N-BEATSx, HAR-X across h=1,10 (3 x 2 = 6 tests)"

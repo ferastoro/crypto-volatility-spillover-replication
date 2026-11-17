@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software or derived replication package, please cite the accompanying manuscript."
+title: "Replication Package: Global AI Stock Volatility Connectedness and Bitcoin Volatility Forecasting in Indonesia"
+type: software
+authors:
+  - name: "Anonymous"
+license: MIT
+date-released: "2026-11-17"
